@@ -38,10 +38,11 @@ nav a {
     font-size: 20px;
     color: white;
     border-radius: 3px;
-    border: 1px solid transparent;
+    padding: 7px 10px;
 }
 
-#a,
+#active,
 a:hover {
     border: white;
+    transition: 1s;
 }
